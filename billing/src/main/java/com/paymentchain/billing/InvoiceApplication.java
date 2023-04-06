@@ -46,7 +46,8 @@ public class InvoiceApplication {
                 .licenseUrl("https://digitalthinking.biz/es/ada-enterprise-core#contactus")
                 .version("1.0")
                 .build();
-    }   
+                
+                }   
 
 
 //main Swagger config definition    
