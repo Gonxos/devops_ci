@@ -72,6 +72,7 @@ public class InvoiceRestController {
                 Invoice InvoiceRequestToInvoice = irm.InvoiceRequestToInvoice(input);
                     save = billingRepository.save(InvoiceRequestToInvoice);  
         }
+        System.out.println("ok");
         return ResponseEntity.ok(save);
     }
     
